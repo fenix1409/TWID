@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google"
 import "./globals.css"
 import ReactQueryProvider from "@/query/QueryProvider"
+import Header from "@/components/sections/Header";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -23,11 +24,7 @@ const metalFont = {
   `,
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" dir="ltr">
       <head>
@@ -35,7 +32,10 @@ export default function RootLayout({
         <style dangerouslySetInnerHTML={{ __html: metalFont.style }} />
       </head>
       <body className={`${inter.variable} ${metalFont.variable}`}>
-        <ReactQueryProvider>{children}</ReactQueryProvider>
+        <ReactQueryProvider>
+          <Header />
+          {children}
+        </ReactQueryProvider>
       </body>
     </html>
   )
