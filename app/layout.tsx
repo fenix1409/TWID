@@ -6,10 +6,10 @@ import Header from "@/components/sections/Header";
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
-  weight: ["400", "700"], // Inter 400 va 700
+  weight: ["400", "700"], // Inter 400 and 700
 })
 
-/* Metal 400-ni qo‘lda yuklaymiz (agar u Google Fonts-da mavjud bo‘lmasa) */
+/* Manually load Metal 400 (if not available on Google Fonts) */
 const metalFont = {
   variable: "--font-metal",
   style: `
@@ -28,7 +28,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" dir="ltr">
       <head>
-        {/* Metal fontini qo‘lda qo‘shish */}
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Your website description" />
+        <title>TWID</title>
+        {/* Manually add Metal font */}
         <style dangerouslySetInnerHTML={{ __html: metalFont.style }} />
       </head>
       <body className={`${inter.variable} ${metalFont.variable}`}>

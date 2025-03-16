@@ -1,0 +1,56 @@
+{
+    "cars": [
+        {
+            "id": 1,
+            "name": "Audi",
+            "image": "https://s3-alpha-sig.figma.com/img/1969/47f0/e680deae3dbfe8c8d98b23fa79372464?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=fSQOkVTz8sS5kyGfwT99Ei-rMKGdVeeZLu9rPCKkOSuE-qtWhtjZbvTXJq7KoFx3KkB6oFYpcXB35gPPBCltb78PL4WRzJ3gIywEZDTLrrfqGjJkZWaFelFk-E~r4Q3RQuJZboZ2Ku8p-3CyiCyCkYCiUOzP2f2T2fkOs1Vb9cAVnSlYKn5hs6vSPO098~QYLZP74ofurnHhNAuvjALMETwC8kTyfK0CsQHWyFItFT1hPMpM2Qcny3b4xQKuwvAuxCCZdkBKlH~ZQOGe2599WutJ-yB~aMtxRZ93oFXeJWuN8Q9yuWdVKSjm9i5VKkpLhgS6x6mjlJCaY3~orzcNwQ__",
+            "modal": "RSQ8 Performance",
+            "FuelType": "Petrol",
+            "Cylinder": 8,
+            "Hp": 600,
+            "Torque": 800,
+            "Transmission": "Automatic",
+            "description": "The Audi RSQ8 Performance is a high-performance SUV that is powered by a 4.0-litre V8 engine that produces 600 hp and 800 Nm of torque. The engine is mated to an 8-speed automatic transmission that sends power to all four wheels.",
+            "type": "SUV"
+        },
+        {
+            "id": 2,
+            "name": "Porsche",
+            "image": "https://s3-alpha-sig.figma.com/img/0fdd/16c6/e34f02d2026d3e7b33d74909734460f5?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=qTJxoL6yrBmiAB0IuJ3lhEM4cy1E3on0duBIiwsf56VE6L4hiyjqZynRv9e7Ew4Y9tEfg8JiVTRX0i5uFHRlH9hcFnEOzYyNt~rFN6K6xlh17TrBHqspeJUyV1Y2OLIRW1TNqr29cXlaKFsDirngMGMqhqjGeQobuUkOWatr7SnsD-Onunwvp-tWuNBBt3TYwIkdSzBITKYC-NGONCxA405XL1HzyhZwZJNsOIKOVIaH2mzlaTS2ZYEuoe9XKtr2-cixiqcrPbS~A1k~wEita7Zm9lKwHDUdhS7bFMqUfXoVaRYWLjmJGz1gBHz3vCwoaTOycLw7lGhN3Khv47fMaw__",
+            "modal": "911 Turbo S",
+            "FuelType": "Petrol",
+            "Cylinder": 8,
+            "Hp": 650,
+            "Torque": 800,
+            "Transmission": "Automatic",
+            "description": "The Porsche 911 has 2 Petrol Engine on offer. It is available with Manual & Automatic transmission. The 911 is a 4 seater 6 cylinder car and has length of 4519 mm, width of 1852 mm and a wheelbase of 2450 mm.",
+            "type": "super car"
+        },
+        {
+            "id": 3,
+            "name": "alpine",
+            "image": "https://s3-alpha-sig.figma.com/img/5180/47a5/6e2661a438705f2be057178dacb92457?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=VihKRwwxvLM6WcnAzIwqc84JbN3fd5fm0nKtN0PzaCkGsgT2NttsCbTd4XpyJpEoVohGzJ3-NrRYqCDlrLSEnA1OmU90RVkHZp0bn9JFsCo08Ypdz4rjuaeet0y41cFNp64iekGspEVG~Aw-ff8-Qf~8e14H0328farWK8XMhpEmDbRv8pu1c6rlcIb3se1xULk69aga2AK8G6xWyeO5n8-Q2L2OYyCaUB7JT-wdG9KDVGgb66LGCs9CSkA09FMnq9Vp6cHulvu77zO72Vz5XsQlQcrB~2H8j7OsPV40KGunRR3ee9V7INOw4LzPmEUqpdTZdcgG8xBVpYeUEDj9jw__",
+            "modal": "A110",
+            "FuelType": "Petrol",
+            "Cylinder": 8,
+            "Hp": 600,
+            "Torque": 800,
+            "Transmission": "Automatic",
+            "description": "The Porsche 911 has 2 Petrol Engine on offer. It is available with Manual & Automatic transmission. The 911 is a 4 seater 6 cylinder car and has length of 4519 mm, width of 1852 mm and a wheelbase of 2450 mm.",
+            "type": "Coupe"
+        },
+        {
+            "id": 4,
+            "name": "bmw",
+            "image": "https://s3-alpha-sig.figma.com/img/85f6/e3ed/559ba7ef4d49fd56190bfa96876603e6?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=ucUdx9Xm6zyGgqp0dKzhtIUaNxilnqmzjknzM1rVFi6VDgJPTzaXVGgUm7g2oXwg-ku8lRSY2Ap0h2cSs48TYb5opV5Qo3dWi8oJggBFLsnNHY4c7Ik6mc3CUzoh2prVTSqmMZYgDqCWQFtf8t~6gc2bXKojre3hrRb7dYdHX6dIC8Tfh7g7Jvg6QbuuGIGnGeWASdFLLWC0J6KifmK~iqtTS7SjMQXbGj5NvdL7yG4UETnyh~Qg797oq5kia78ndawP1lEyqVyWKiI8nduQdHkssdCC9KjbIXP0MWmLNhc9eG4nrqFP5a-v9glljD5seXU6v~mRKpmmgascf4M3Sg__",
+            "modal": "M3",
+            "FuelType": "Petrol",
+            "Cylinder": 8,
+            "Hp": 600,
+            "Torque": 800,
+            "Transmission": "Automatic",
+            "description": "The Porsche 911 has 2 Petrol Engine on offer. It is available with Manual & Automatic transmission. The 911 is a 4 seater 6 cylinder car and has length of 4519 mm, width of 1852 mm and a wheelbase of 2450 mm.",
+            "type": "Coupe"
+        }
+    ]
+}
